@@ -1,4 +1,4 @@
-package oefeningen_vb.collections.convertEnView;
+package oefeningen_vb.collections.convertView;
 
 import java.util.Arrays;
 import java.util.LinkedList;

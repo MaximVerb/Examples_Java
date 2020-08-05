@@ -1,4 +1,4 @@
-package oefeningen_vb.collections.linkedlist;
+package oefeningen_vb.collections.linkedList;
 //Lists, LinkedLists en ListIterators
 import java.util.*;
 
@@ -45,7 +45,7 @@ public class ListTest {
 
     //locate String objects and convert to Uppercase
     private static void convertToUppercase(List<String> list) {
-        ListIterator<String> iterator = list.listIterator();
+        ListIterator<String> iterator = list.listIterator(); //listiterator is een bidirectionele iterator
 
         while(iterator.hasNext()) {
             String color = iterator.next(); //get item
@@ -54,7 +54,8 @@ public class ListTest {
     }
 
     private static void removeItems(List<String> list, int start, int end) {
-        list.subList(start,end).clear(); //remove items
+        list.subList(start,end).clear();
+        //remove items --> dit is methodchaining, je haalt eerst de sublist op, daarna clear() je die
     }
 
     private static void printReversedList (List<String> list) {

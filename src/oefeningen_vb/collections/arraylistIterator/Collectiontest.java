@@ -1,4 +1,4 @@
-package oefeningen_vb.collections.arraylistEnIterator;
+package oefeningen_vb.collections.arraylistIterator;
 
 import java.util.*;
 
