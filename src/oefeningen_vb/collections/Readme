@@ -1,0 +1,28 @@
+Tips & Tricks collections:
+1. Collections houden objecten bij, dus primitieve data dienen omgevormd te worden naar wrappers, zijnde :
+*Integer
+*Byte
+*Long
+*Float
+*Double
+*Boolean
+*Character
+
+2. Collection wordt vaak gebruikt als parametertype, zodat polymorf gebruik van de methode mogelijk wordt
+
+3. Je hebt ook gesynchroniseerde collections, die gebruikt worden bij threading: als er namelijk meerdere
+programma's tegelijkertijd lopen, kan de data niet tegelijkertijd aangepast worden. Vandaar de noodzaak van
+gesynchroniseerde collections.
+
+4. Lists :
+Arraylist --> bevorderd opzoeken
+LinkedList --> bevorderd toevoegen en wegnemen
+
+5. Wanneer een iterator is gemaakt voor een collection, en deze collection is vervolgens aangepast geweest
+dan is de iterator niet meer correct, en dient deze opnieuw aangemaakt te worden.
+Er verschijnt dan een ConcurrentModificationException !!
+
+6. Wanneer je bijvoorbeeld een variabele aanmaakt zoals een ArrayList of een LinkedList, zie er dan op toe dat deze
+van het type List zijn, moest je code daarna dan aangepast worden, dan is dit makkelijker
+
+7.
