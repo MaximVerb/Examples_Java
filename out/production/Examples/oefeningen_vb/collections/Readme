@@ -31,7 +31,8 @@ van het type List zijn, moest je code daarna dan aangepast worden, dan is dit ma
 - reverse : verandert de volgorde van de objecten
 - shuffle : verandert alle elementen van plaats
 - fill : ieder List element refereert naar een bepaald object
-- copy : kopieert de referenties naar objecten van de ene lijst naar de andere
+- copy : kopieert de referenties van objecten van de ene lijst naar de andere; van de source list,
+naar de destination list, beide lijsten moeten even lang zijn, anders krijg je een IndexOutOfBoundException
 - min : kleinste element
 - max : grootste element
 - addAll : voegt alle elementen toe
