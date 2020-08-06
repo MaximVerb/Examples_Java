@@ -23,7 +23,7 @@ van het type List zijn, moest je code daarna dan aangepast worden, dan is dit ma
 
 6. een aantal belangrijke methoden :
 - sort : sorteert de elementen van een lijst. Kan specifieker via Comaparable interface
-- binarySearch : lokaliseert een object in een collectie
+- binarySearch : lokaliseert een object in een collectie en geeft index terug
 - reverse : verandert de volgorde van de objecten
 - shuffle : verandert alle elementen van plaats
 - fill : ieder List element refereert naar een bepaald object
