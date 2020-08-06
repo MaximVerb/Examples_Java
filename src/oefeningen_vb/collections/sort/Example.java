@@ -2,7 +2,7 @@ package oefeningen_vb.collections.sort;
 
 import java.util.*;
 
-public class Sort {
+public class Example {
     public static void main(String[] args) {
         String [] suits = {"Hearts","Diamonds","Clubs","Spades"};
 

@@ -5,7 +5,7 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
-public class Algoritmes {
+public class Example {
     public static void main(String[] args) {
         Character[] letters = { 'A', 'B', 'C'};
         List<Character> list = Arrays.asList(letters);
@@ -26,7 +26,7 @@ public class Algoritmes {
         System.out.printf("%nAfter copying , copylist contains: %n");
         output(copyList);
 
-        //fill list with Rs
+        //fill list with Rs and changes array it's based on
         Collections.fill(list, 'R');
         System.out.printf("%nAfter calling fill, list contains: %n");
         output(list);

@@ -2,7 +2,7 @@ package oefeningen_vb.collections.linkedList;
 //Lists, LinkedLists en ListIterators
 import java.util.*;
 
-public class ListTest {
+public class Example {
     public static void main(String[] args) {
         //add color elements to list1
         String[] colors = {"black","yellow","green","blue","violet","silver"};

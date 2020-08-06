@@ -2,7 +2,7 @@ package oefeningen_vb.collections.arraylistIterator;
 
 import java.util.*;
 
-public class Collectiontest {
+public class Example {
     public static void main(String[] args) {
         //add elements in color array to list
         String [] colors = {"MAGENTA","RED","WHITE","BLUE","CYAN"};

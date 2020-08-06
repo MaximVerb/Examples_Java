@@ -14,25 +14,21 @@ Tips & Tricks collections:
 programma's tegelijkertijd lopen, kan de data niet tegelijkertijd aangepast worden. Vandaar de noodzaak van
 gesynchroniseerde collections.
 
-4. Lists :
-Arraylist --> bevorderd opzoeken
-LinkedList --> bevorderd toevoegen en wegnemen
-
-5. Wanneer een iterator is gemaakt voor een collection, en deze collection is vervolgens aangepast geweest
+4. Wanneer een iterator is gemaakt voor een collection, en deze collection is vervolgens aangepast geweest
 dan is de iterator niet meer correct, en dient deze opnieuw aangemaakt te worden.
 Er verschijnt dan een ConcurrentModificationException !!
 
-6. Wanneer je bijvoorbeeld een variabele aanmaakt zoals een ArrayList of een LinkedList, zie er dan op toe dat deze
+5. Wanneer je bijvoorbeeld een variabele aanmaakt zoals een ArrayList of een LinkedList, zie er dan op toe dat deze
 van het type List zijn, moest je code daarna dan aangepast worden, dan is dit makkelijker
 
-7. een aantal belangrijke methoden :
+6. een aantal belangrijke methoden :
 - sort : sorteert de elementen van een lijst. Kan specifieker via Comaparable interface
-- binarySearch : lokaliseert een object in een collectie
+- binarySearch : lokaliseert een object in een collectie en geeft index terug
 - reverse : verandert de volgorde van de objecten
 - shuffle : verandert alle elementen van plaats
 - fill : ieder List element refereert naar een bepaald object
 - copy : kopieert de referenties van objecten van de ene lijst naar de andere; van de source list,
-naar de destination list, beide lijsten moeten even lang zijn, anders krijg je een IndexOutOfBoundException
+        naar de destination list, beide lijsten moeten even lang zijn, anders krijg je een IndexOutOfBoundException
 - min : kleinste element
 - max : grootste element
 - addAll : voegt alle elementen toe
