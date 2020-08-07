@@ -1,0 +1,7 @@
+We gaan hier twee onveranderlijke verzamelingen bespreken.
+-   gedeeltelijk onveranderlijk : gebaseerd op een view, dus view kan nog aangepast worden
+-   geheel onveranderlijk : een verzameling die echt onveranderlijk is, wat niet wil zeggen dat de objecten binnenin die
+    verzameling onveranderlijk zijn
+
+    Opmerking : aantal elementen van onveranderlijke verzamelingen zijn standaard 10 en er mag geen NULL in voorkomen !!
+

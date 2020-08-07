@@ -1,5 +1,5 @@
 Tips & Tricks collections:
-1. Collections houden objecten bij, dus primitieve data dienen omgevormd te worden naar wrappers, zijnde :
+1. Collections houden objecten bij, dus primitieve data zullen via autoboxing omgevormd worden naar wrappers, zijnde :
 *Integer
 *Byte
 *Long
@@ -18,10 +18,8 @@ gesynchroniseerde collections.
 dan is de iterator niet meer correct, en dient deze opnieuw aangemaakt te worden.
 Er verschijnt dan een ConcurrentModificationException !!
 
-5. Wanneer je bijvoorbeeld een variabele aanmaakt zoals een ArrayList of een LinkedList, zie er dan op toe dat deze
-van het type List zijn, moest je code daarna dan aangepast worden, dan is dit makkelijker
 
-6. een aantal belangrijke methoden :
+5. een aantal belangrijke methoden :
 - sort : sorteert de elementen van een lijst. Kan specifieker via Comaparable interface
 - binarySearch : lokaliseert een object in een collectie en geeft index terug
 - reverse : verandert de volgorde van de objecten
@@ -34,3 +32,51 @@ van het type List zijn, moest je code daarna dan aangepast worden, dan is dit ma
 - addAll : voegt alle elementen toe
 - frequency : hoe  vaak komt een bepaald element voor
 - disjoint : controleert of collections bepaalde elementen gemeenschappelijk hebben
+
+6. Belangrijke methoden van de interface Collection :
+- (boolean) add
+- (boolean) remove
+- clear()
+- (boolean) contains (Object o)
+- Iterator <dataType> iterator ()
+- int size
+- forEach()
+
+7. extra methoden List :
+Een list is een geordende verzameling waarin duplicaten kunnen voorkomen. Ieder element
+in de verzameling heeft een bepaalde indexwaarde.
+
+- add (int index, object) --> voegt toe en alles schuift op
+- set (int index, object) --> vervangt het element dat op die positie stond
+- get (int index) --> geeft het element weer op die indexplaats
+- remove (int index) --> verwijdert een element op een bepaalde positie en alles schuift op
+
+8. extra methoden Set:
+Een Set is een verzameling van unieke objecten en die uniciteit wordt bepaalde door de hashcode alsook door de equals()
+methode. De juiste implementatie van de methode equals() en hashCode() is hier dus zeer belangrijk. Een Set beschikt
+over alle methoden van de interface Collection en voegt zelf geen methoden toe.
+
+8.1. HashSet :
+Dit is een ongeordende en ongesorteerde verzameling die de elementen bijhoudt in een hashtable. De hashcode wordt
+hierbij gebruikt als achterliggende index.
+
+8.1.1. LinkedHashSet:
+Een geordende en ongesorteerde verzameling. Van belang als we volgorde willen hebben bij de unieke objecten in de
+verzameling.
+
+8.2. SortedSet:
+De elementen zijn geordend en gesorteerd volgens een bepaald algoritme.
+Methoden :
+-  first()
+- last()
+
+8.2.1. NavigableSet :
+Biedt de extra mogelijkheden elementen dicht bij elkaar op te zoeken
+Methoden:
+- ceiling ()
+- floor()
+- higher ()
+- lower()
+
+
+

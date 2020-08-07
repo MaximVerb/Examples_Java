@@ -45,7 +45,8 @@ public class Example {
 
     //locate String objects and convert to Uppercase
     private static void convertToUppercase(List<String> list) {
-        ListIterator<String> iterator = list.listIterator(); //listiterator is een bidirectionele iterator
+        ListIterator<String> iterator = list.listIterator();
+        //listiterator is een bidirectionele iterator en enkel mogelijk bij LinkedList
 
         while(iterator.hasNext()) {
             String color = iterator.next(); //get item
