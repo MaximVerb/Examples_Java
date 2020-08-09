@@ -1,1 +1,28 @@
 Voorbeeld van hoe je een collection omzet naar een set zodat alle duplicaten verdwijnen
+
+1. extra methoden Set:
+Een Set is een verzameling van unieke objecten en die uniciteit wordt bepaald door de hashcode alsook door de equals()
+methode. De juiste implementatie van de methode equals() en hashCode() is hier dus zeer belangrijk. Een Set beschikt
+over alle methoden van de interface Collection en voegt zelf geen methoden toe.
+
+1.1. HashSet :
+Dit is een ongeordende en ongesorteerde verzameling die de elementen bijhoudt in een hashtable. De hashcode wordt
+hierbij gebruikt als achterliggende index.
+
+1.1.1. LinkedHashSet:
+Een geordende en ongesorteerde verzameling. Van belang als we volgorde willen hebben bij de unieke objecten in de
+verzameling.
+
+1.2. SortedSet:
+De elementen zijn geordend en gesorteerd volgens een bepaald algoritme.
+Methoden :
+-  first()
+- last()
+
+1.2.1. NavigableSet :
+Biedt de extra mogelijkheden elementen dicht bij elkaar op te zoeken
+Methoden:
+- ceiling ()
+- floor()
+- higher ()
+- lower()

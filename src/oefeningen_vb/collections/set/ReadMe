@@ -1,7 +1,7 @@
 Voorbeeld van hoe je een collection omzet naar een set zodat alle duplicaten verdwijnen
 
 1. extra methoden Set:
-Een Set is een verzameling van unieke objecten en die uniciteit wordt bepaalde door de hashcode alsook door de equals()
+Een Set is een verzameling van unieke objecten en die uniciteit wordt bepaald door de hashcode alsook door de equals()
 methode. De juiste implementatie van de methode equals() en hashCode() is hier dus zeer belangrijk. Een Set beschikt
 over alle methoden van de interface Collection en voegt zelf geen methoden toe.
 

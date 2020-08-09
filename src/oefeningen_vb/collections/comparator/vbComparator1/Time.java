@@ -1,4 +1,4 @@
-package oefeningen_vb.collections.comparator;
+package oefeningen_vb.collections.comparator.vbComparator1;
 
 public class Time {
     private int hour;

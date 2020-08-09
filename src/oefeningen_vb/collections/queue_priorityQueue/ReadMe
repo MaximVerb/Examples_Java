@@ -1,0 +1,6 @@
+extra methoden Queue:
+Een geordende verzamling (op basis van comparable/comparator) waarbij de elementen een voor een opgevraagd en verwijderd kunnen worden.
+- offer() --> voegt een element toe aan de queue
+- peek() --> geeft het eerstvolgende element, maar verwijdert het niet. Exception indien het null is.
+- poll() --> Geeft het eerstvolgende element en verwijdert het. Geeft null als de queue leeg is.
+- remove() --> geeft het eertsvolgende element en verwijdert het. Exception als de queue leeg is.

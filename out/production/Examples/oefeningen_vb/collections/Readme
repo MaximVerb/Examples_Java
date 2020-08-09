@@ -51,32 +51,8 @@ in de verzameling heeft een bepaalde indexwaarde.
 - get (int index) --> geeft het element weer op die indexplaats
 - remove (int index) --> verwijdert een element op een bepaalde positie en alles schuift op
 
-8. extra methoden Set:
-Een Set is een verzameling van unieke objecten en die uniciteit wordt bepaalde door de hashcode alsook door de equals()
-methode. De juiste implementatie van de methode equals() en hashCode() is hier dus zeer belangrijk. Een Set beschikt
-over alle methoden van de interface Collection en voegt zelf geen methoden toe.
 
-8.1. HashSet :
-Dit is een ongeordende en ongesorteerde verzameling die de elementen bijhoudt in een hashtable. De hashcode wordt
-hierbij gebruikt als achterliggende index.
 
-8.1.1. LinkedHashSet:
-Een geordende en ongesorteerde verzameling. Van belang als we volgorde willen hebben bij de unieke objecten in de
-verzameling.
-
-8.2. SortedSet:
-De elementen zijn geordend en gesorteerd volgens een bepaald algoritme.
-Methoden :
--  first()
-- last()
-
-8.2.1. NavigableSet :
-Biedt de extra mogelijkheden elementen dicht bij elkaar op te zoeken
-Methoden:
-- ceiling ()
-- floor()
-- higher ()
-- lower()
 
 
 

@@ -1,3 +1,5 @@
 Een comparator gebruik je wanneer een object geen natuurlijke vergelijker heeft, maw als deze niet de comparable
-interface hanteert. Voor het gebruik van gesorteerde collections ben je tevens verplicht een comparable interface
+interface hanteert of wanneer je de natuurlijke volgorde wilt vernaderen.
+Voor het gebruik van gesorteerde collections ben je tevens verplicht een comparable interface
 of een comparator te hanteren, anders verschijnt er een exception.
+Een comparator heeft voorrang op een comparable en dient meegegeven te worden in de constructor.

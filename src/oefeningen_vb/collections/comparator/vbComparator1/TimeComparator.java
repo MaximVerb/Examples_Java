@@ -1,8 +1,9 @@
-package oefeningen_vb.collections.comparator;
+package oefeningen_vb.collections.comparator.vbComparator1;
 //custom compare class that compares two time objects
 import java.util.Comparator;
 
-public class TimeComparator implements Comparator<Time> {  //voor dit voorbeeld gaan we uit van een Tijd-klasse
+public class TimeComparator implements Comparator<Time> {
+    //voor dit voorbeeld gaan we uit van een Tijd-klasse
     //de diamand operator niet vergeten, anders gaat comparator default naar de Object klasse
     @Override
     public int compare(Time time1, Time time2) {
